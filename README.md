@@ -72,6 +72,10 @@ This template for landing page development use gulp with browsersync, scss, jade
 ```
 ### ChangeLog ###
 
+## v. 1.2.4  ##
+* fix bugs
+* change place of phone and email inputs in form
+
 ## v. 1.2.3  ##
 * remove php for utm
 * remove old bootstrap

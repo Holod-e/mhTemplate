@@ -17,6 +17,9 @@ form.standart-form {
 		margin: 0 auto;
 		margin-bottom: 15px;
 	}
+	input.email {
+		margin-top: 15px;
+	}
 	&:after {
 		content: "";
 		display: none;

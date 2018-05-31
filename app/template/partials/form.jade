@@ -1,7 +1,7 @@
 form.standart-form#form1(accept-charset="utf-8" onsubmit="return validate(form1);" action="" method="post")
 	input.name(name="name", type="text", placeholder="Введите Ваши имя и фамилию", required="")
-	input.email(name="email", type="email", placeholder="Введите Ваш e-mail", required="")
 	input.phone#phone(name="phone", type="text", required="")
+	input.email(name="email", type="email", placeholder="Введите Ваш e-mail", required="")
 	.hidden-inputs.
 		<input type="hidden" name="plan" value="">
 		<input type="hidden" name="sum" value="">
@@ -12,4 +12,4 @@ form.standart-form#form1(accept-charset="utf-8" onsubmit="return validate(form1)
 		<input type="hidden" name="utm_term" value="">
 		<input type="hidden" name="utm_campaign" value="">
 		<input type="hidden" name="country" value="">
-	button.btn.subm(type="submit") Принять участие
+	button.btn.subm.hvr-grow-shadow(type="submit") Принять участие

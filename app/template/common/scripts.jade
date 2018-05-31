@@ -78,7 +78,7 @@ script.
 			referer = window.location.href;
 			var ga = getCookie('_ga').split('.');
 			ga_client_id = ga[2] + '.' + ga[3];
-			if ($('.not_error').length == 3)
+			if ($('.not_error').length >= 3)
 			{
 				$.ajax(
 				{
